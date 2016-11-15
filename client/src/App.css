@@ -1,0 +1,144 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.white {
+  color: white;
+}
+
+.orangeBkgrnd {
+  background-color: #F88200;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: white;
+  border-width: thin;
+}
+
+.stayRight {
+  float: right;
+}
+
+.navbar-nav>li {
+  display: inline-block;
+}
+
+table.underline td {
+  border-bottom:1pt solid #ddd;
+}
+
+table.underline td.h8 {
+  width: 150px;
+}
+
+.larger-top-spacer {
+  margin-top: 48px;
+}
+.default-top-spacer {
+  margin-top: 40px;
+}
+.default-left-spacer {
+  margin-left: 40px;
+}
+.smaller-left-spacer {
+  margin-left: 32px;
+}
+.default-right-spacer {
+  margin-right: 40px;
+}
+.smaller-right-spacer {
+  margin-right: 32px;
+}
+.smallest-right-spacer {
+  margin-right: 16px;
+}
+.default-bottom-spacer {
+  margin-bottom: 28px;
+}
+.middle-bottom-spacer {
+  margin-bottom: 24px;
+}
+.smaller-bottom-spacer {
+  margin-bottom: 16px;
+}
+.smallest-bottom-spacer {
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: #3FB34A;
+}
+
+h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin:0;
+}
+
+h5 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  color: #9B9B9B;
+}
+
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.h7 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #9B9B9B;
+}
+
+.h8 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.h9 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: #9B9B9B;
+}
