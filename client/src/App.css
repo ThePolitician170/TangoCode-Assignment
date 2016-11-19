@@ -1,35 +1,18 @@
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .white {
   color: white;
 }
 
-.orangeBkgrnd {
+.orange-bkgrnd {
   background-color: #F88200;
   border-left-style: solid;
   border-right-style: solid;
   border-color: white;
   border-width: thin;
+}
+
+.app-bkgrnd {
+  border: 1px solid #EFEFF2;
+  background-color: #EFEFF2;
 }
 
 .stayRight {
@@ -44,8 +27,8 @@ table.underline td {
   border-bottom:1pt solid #ddd;
 }
 
-table.underline td.h8 {
-  width: 150px;
+table.underline td.h7 {
+  width: 200px;
 }
 
 .larger-top-spacer {
@@ -68,6 +51,9 @@ table.underline td.h8 {
 }
 .smallest-right-spacer {
   margin-right: 16px;
+}
+.large-bottom-spacer {
+  margin-bottom: 50px;
 }
 .default-bottom-spacer {
   margin-bottom: 28px;

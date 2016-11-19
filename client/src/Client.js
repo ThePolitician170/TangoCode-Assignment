@@ -1,8 +1,9 @@
-function search(query) {
+function search(query, cb) {
   return fetch(`api/cars?id=${query}`, {
     accept: 'application/json',
   }).then(checkStatus)
-    .then(parseJSON);
+    .then(parseJSON)
+    .then(cb);
 }
 
 function checkStatus(response) {

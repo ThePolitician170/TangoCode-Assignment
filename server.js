@@ -13,7 +13,7 @@ MongoClient.connect('mongodb://127.0.0.1:27017/mytestdb', (err, database) => {
 app.set('port', (process.env.API_PORT || 3001));
 
 app.get('/api/cars', (req, res) => {
-  const param = req.query.id;
+  var param = parseInt(req.query.id);
 
   if (!param) {
       res.json({
@@ -21,11 +21,12 @@ app.get('/api/cars', (req, res) => {
       });
       return;
   }
-  var query = {};
-  query['carId'] = param;
-  var result = db.cars.find(query).toArray();
-  console.log(result[0].name);
-
+  var query = new Object();
+  query.carId = param;
+  var collection = db.collection('cars');
+  collection.find(query).toArray(function(err, result) {
+    res.json(result[0]);
+  });
 
 })
 
