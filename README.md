@@ -3,7 +3,9 @@
 
 - Install MongoDB and create a DB named "mytestdb" or change the DB name inside of server.js (line:8) to your DB name.
 
-- Insert the following record into your DB (You can change the other values as long as carId is 1).
+- Insert the following record into a collection named 'cars' in your DB (You can change the other values as long as carId is 1).
+
+- The command to insert is db.cars.insert({Record})
 
 {
 	"_id" : ObjectId("58292243d173868cac5a4440"),
